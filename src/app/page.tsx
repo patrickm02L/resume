@@ -7,7 +7,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900">
-      <div className="max-w-2xl mx-auto py-6 px-4">
+      <div className="max-w-2xl mx-auto pt-[42px] pb-[62px] px-[82px]">
         {/* Header Section */}
         <header className="mb-8">
           <div className="flex items-center gap-3 sm:gap-4">
@@ -109,7 +109,7 @@ export default function Home() {
         <section>
           <h2 className="text-xs font-medium text-black dark:text-white mb-4">Get in touch</h2>
           
-          <div className="space-y-1.5">
+          <div className="space-y-3">
             <div className="flex gap-2">
               <span className="text-gray-600 dark:text-gray-400 text-xs w-24">Instagram</span>
               <a href="https://www.instagram.com/patrickm02l" target="_blank" rel="noopener noreferrer" className="text-black dark:text-white text-xs hover:underline ml-2.5">patrickm02L</a>

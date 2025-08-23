@@ -1,7 +1,8 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Live Site
-Visit the live site at: https://patrickm02l.github.io/resume
+Visit the live site at: https://patrickm02l.com
+Fallback: https://patrickm02l.github.io/resume
 
 ## Getting Started
 

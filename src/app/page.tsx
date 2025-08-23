@@ -11,6 +11,7 @@ export default function Home() {
         {/* Header Section */}
         <header className="mb-8">
           <div className="flex items-center gap-3 sm:gap-4">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img 
               src="/patrick-profile.png" 
               alt="Patrick McDonnell"
@@ -28,7 +29,7 @@ export default function Home() {
         <section className="mb-12">
           <h2 className="text-xs font-medium text-black dark:text-white mb-4">About</h2>
           <p className="text-xs text-gray-600 dark:text-gray-400 leading-relaxed">
-            I currently serve as a Designer with the City of Austin Digital Services, focusing on Service Design, UI and AI. I'm a big believer that things can always be simpler than we think.
+            I currently serve as a Designer with the City of Austin Digital Services, focusing on Service Design, UI and AI. I&apos;m a big believer that things can always be simpler than we think.
           </p>
         </section>
 

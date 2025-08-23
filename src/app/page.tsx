@@ -28,7 +28,7 @@ export default function Home() {
         <section className="mb-12">
           <h2 className="text-xs font-medium text-black dark:text-white mb-4">About</h2>
           <p className="text-xs text-gray-600 dark:text-gray-400 leading-relaxed">
-            I currently serve as a designer with the City of Austin Digital Services, focusing on service design, UI and AI. I'm a big believer that things can always be simpler than we think.
+            I currently serve as a Designer with the City of Austin Digital Services, focusing on Service Design, UI and AI. I'm a big believer that things can always be simpler than we think.
           </p>
         </section>
 
@@ -87,7 +87,7 @@ export default function Home() {
               <div className="text-gray-600 dark:text-gray-400 text-xs w-24 flex-shrink-0">2016</div>
               <div className="flex-1 ml-2.5">
                 <h3 className="text-xs text-black dark:text-white mb-1">Design Researcher at Code for America</h3>
-                <p className="text-xs text-gray-600 dark:text-gray-400">Small Business Portal</p>
+                <p className="text-xs text-gray-600 dark:text-gray-400">Small Business Permitting</p>
               </div>
             </div>
 

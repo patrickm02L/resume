@@ -46,11 +46,11 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Product Manager & Designer at City of Austin */}
+            {/* Senior Product Manager & Designer at City of Austin */}
             <div className="flex gap-2">
               <div className="text-gray-600 dark:text-gray-400 text-xs w-24 flex-shrink-0">2021 — 2025</div>
               <div className="flex-1 ml-2.5">
-                <h3 className="text-xs text-black dark:text-white mb-1">Product Manager & Designer at City of Austin</h3>
+                <h3 className="text-xs text-black dark:text-white mb-1">Senior Product Manager & Designer at City of Austin</h3>
                 <p className="text-xs text-gray-600 dark:text-gray-400">Transportation Platforms</p>
               </div>
             </div>

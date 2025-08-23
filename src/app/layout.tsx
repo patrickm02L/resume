@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Sara Lawrence - Designer",
+  title: "Patrick McDonnell - Designer",
   description: "Passionate UX designer striving to create intuitive and engaging experiences.",
 };
 

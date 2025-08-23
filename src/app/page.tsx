@@ -13,7 +13,7 @@ export default function Home() {
           <div className="flex items-center gap-3 sm:gap-4">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img 
-              src="/resume/patrick-profile.png" 
+              src="/patrick-profile.png" 
               alt="Patrick McDonnell"
               className="w-[58px] h-[58px] sm:w-[74px] sm:h-[74px] rounded-full object-cover flex-shrink-0 cursor-pointer hover:opacity-80 transition-opacity duration-200"
               onClick={toggleTheme}

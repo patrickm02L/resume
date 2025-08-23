@@ -20,6 +20,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="preload" href="/resume/patrick-profile.png" as="image" />
+      </head>
       <body
         className={`${inter.variable} antialiased font-inter`}
       >

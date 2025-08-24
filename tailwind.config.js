@@ -11,6 +11,12 @@ module.exports = {
       fontFamily: {
         inter: ["var(--font-inter)", "ui-sans-serif", "system-ui", "sans-serif"],
       },
+      fontSize: {
+        'xs': ['12px', { lineHeight: '16px' }],
+        'sm': ['14px', { lineHeight: '20px' }],
+        'base': ['16px', { lineHeight: '24px' }],
+        'lg': ['18px', { lineHeight: '28px' }],
+      },
     },
   },
   plugins: [],

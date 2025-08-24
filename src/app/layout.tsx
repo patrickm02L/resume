@@ -6,11 +6,19 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
+  display: "swap",
+  fallback: ["ui-sans-serif", "system-ui", "sans-serif"],
+  adjustFontFallback: true,
 });
 
 export const metadata: Metadata = {
   title: "Patrick McDonnell - Designer",
   description: "Passionate UX designer striving to create intuitive and engaging experiences.",
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+    maximumScale: 1,
+  },
 };
 
 export default function RootLayout({

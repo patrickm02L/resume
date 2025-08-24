@@ -1,8 +1,9 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Live Site
-Visit the live site at: https://patrickm02l.com
-Fallback: https://patrickm02l.github.io/resume
+🌐 **Deployed on Vercel**: [https://patrickm02l.com](https://patrickm02l.com)
+
+This site is automatically deployed to Vercel from the `main` branch. Every push triggers a new deployment with preview URLs for pull requests.
 
 ## Getting Started
 
@@ -33,8 +34,13 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This resume is deployed on [Vercel](https://vercel.com), the platform created by the makers of Next.js. The deployment is configured for:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- ✅ **Automatic deployments** from the `main` branch
+- 🔍 **Preview deployments** for pull requests  
+- ⚡ **Edge network optimization** for fast global loading
+- 📊 **Built-in analytics** and performance monitoring
+
+Any changes pushed to the `main` branch will automatically trigger a new deployment.

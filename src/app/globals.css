@@ -1,11 +1,5 @@
 @import "tailwindcss";
 
-@variant dark (.dark &);
-
-@theme inline {
-  --font-sans: var(--font-inter);
-}
-
 body {
   font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
   transition: background-color 0.2s ease, color 0.2s ease;

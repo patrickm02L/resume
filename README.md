@@ -43,4 +43,8 @@ This resume is deployed on [Vercel](https://vercel.com), the platform created by
 - ⚡ **Edge network optimization** for fast global loading
 - 📊 **Built-in analytics** and performance monitoring
 
+### DNS Configuration (Hover)
+- **Root Domain (@)**: `A` Record -> `216.198.79.1` (Vercel IP)
+- **Subdomain (www)**: `CNAME` Record -> `cname.vercel-dns.com` (verified)
+
 Any changes pushed to the `main` branch will automatically trigger a new deployment.

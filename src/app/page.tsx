@@ -12,8 +12,8 @@ export default function Home() {
         <header className="mb-8">
           <div className="flex items-center gap-3 sm:gap-4">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img 
-              src="/patrick-profile.png" 
+            <img
+              src="/patrick-profile.png"
               alt="Patrick McDonnell"
               className="w-[58px] h-[58px] sm:w-[74px] sm:h-[74px] rounded-full object-cover flex-shrink-0 cursor-pointer hover:opacity-80 transition-opacity duration-200"
               onClick={toggleTheme}
@@ -37,7 +37,7 @@ export default function Home() {
         {/* Work Experience Section */}
         <section className="mb-12">
           <h2 className="text-xs font-medium text-black dark:text-white mb-4">Work Experience</h2>
-          
+
           <div className="space-y-4">
             {/* Senior Designer at City of Austin */}
             <div className="flex gap-2">
@@ -53,7 +53,7 @@ export default function Home() {
               <div className="text-gray-600 dark:text-gray-400 text-xs w-24 flex-shrink-0">2021 — 2025</div>
               <div className="flex-1 ml-2.5">
                 <h3 className="text-xs text-black dark:text-white mb-1">Senior Product Manager & Designer at City of Austin</h3>
-                <p className="text-xs text-gray-600 dark:text-gray-400">Transportation Platforms</p>
+                <p className="text-xs text-gray-600 dark:text-gray-400">Transportation</p>
               </div>
             </div>
 
@@ -110,7 +110,7 @@ export default function Home() {
         {/* Get in touch Section */}
         <section>
           <h2 className="text-xs font-medium text-black dark:text-white mb-4">Get in touch</h2>
-          
+
           <div className="space-y-3">
             <div className="flex gap-2">
               <span className="text-gray-600 dark:text-gray-400 text-xs w-24">Instagram</span>

@@ -1,6 +1,7 @@
 'use client';
 
 import { useTheme } from "./contexts/ThemeContext";
+import { InstagramLogo, LinkedinLogo } from "@phosphor-icons/react";
 
 export default function Home() {
   const { toggleTheme } = useTheme();
@@ -21,7 +22,15 @@ export default function Home() {
             />
             <div>
               <h1 className="text-lg font-semibold text-black dark:text-white mb-0">Patrick McDonnell</h1>
-              <p className="text-xs text-gray-600 dark:text-gray-400 mb-1">Designer in Austin</p>
+              <p className="text-xs text-gray-600 dark:text-gray-400 mb-1.5">Designer in Austin</p>
+              <div className="flex gap-1.5">
+                <a href="https://www.instagram.com/patrickm02l" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors">
+                  <InstagramLogo size={16} />
+                </a>
+                <a href="https://www.linkedin.com/in/patrickm02l/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors">
+                  <LinkedinLogo size={16} />
+                </a>
+              </div>
             </div>
           </div>
         </header>
@@ -100,25 +109,6 @@ export default function Home() {
                 <h3 className="text-xs text-black dark:text-white mb-1">Project Manager at Elsewhere Museum</h3>
                 <p className="text-xs text-gray-600 dark:text-gray-400">Public Art</p>
               </div>
-            </div>
-          </div>
-        </section>
-
-
-
-
-        {/* Get in touch Section */}
-        <section>
-          <h2 className="text-xs font-medium text-black dark:text-white mb-4">Get in touch</h2>
-
-          <div className="space-y-3">
-            <div className="flex gap-2">
-              <span className="text-gray-600 dark:text-gray-400 text-xs w-24">Instagram</span>
-              <a href="https://www.instagram.com/patrickm02l" target="_blank" rel="noopener noreferrer" className="text-black dark:text-white text-xs hover:underline ml-2.5">patrickm02L</a>
-            </div>
-            <div className="flex gap-2">
-              <span className="text-gray-600 dark:text-gray-400 text-xs w-24">LinkedIn</span>
-              <a href="https://www.linkedin.com/in/patrickm02l/" target="_blank" rel="noopener noreferrer" className="text-black dark:text-white text-xs hover:underline ml-2.5">patrickm02L</a>
             </div>
           </div>
         </section>

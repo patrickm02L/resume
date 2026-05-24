@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 import { ThemeProvider } from "./contexts/ThemeContext";
 
@@ -30,6 +31,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="preload" href="/patrick-profile.png" as="image" />
+        <GoogleAnalytics gaId="G-0BT6WFEBBY" />
       </head>
       <body
         className={`${inter.variable} antialiased font-inter`}

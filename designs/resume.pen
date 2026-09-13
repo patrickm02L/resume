@@ -1,0 +1,2320 @@
+{
+  "version": "2.17",
+  "children": [
+    {
+      "type": "frame",
+      "id": "skGZO",
+      "x": 0,
+      "y": -260,
+      "name": "Experience Row",
+      "reusable": true,
+      "width": 508,
+      "gap": 18,
+      "children": [
+        {
+          "type": "text",
+          "id": "oWROA",
+          "name": "Date",
+          "fill": "$text-secondary",
+          "textGrowth": "fixed-width",
+          "width": 96,
+          "content": "2025 — Now",
+          "lineHeight": 1.3333,
+          "fontFamily": "$font-body",
+          "fontSize": "$size-xs",
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "fqNhF",
+          "name": "Details",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 4,
+          "children": [
+            {
+              "type": "text",
+              "id": "yLTA1",
+              "name": "Title",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Senior Designer at City of Austin",
+              "lineHeight": 1.3333,
+              "fontFamily": "$font-body",
+              "fontSize": "$size-xs",
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "CWZUW",
+              "name": "Subtitle",
+              "fill": "$text-secondary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Digital Services",
+              "lineHeight": 1.3333,
+              "fontFamily": "$font-body",
+              "fontSize": "$size-xs",
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "t3nty",
+      "x": 0,
+      "y": 0,
+      "name": "Resume — Light",
+      "theme": {
+        "mode": "light"
+      },
+      "clip": true,
+      "width": 1280,
+      "height": 900,
+      "fill": "$bg",
+      "layout": "vertical",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "uPmJo",
+          "name": "Container",
+          "width": 672,
+          "height": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            42,
+            82,
+            62,
+            82
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "zauQo",
+              "name": "Header",
+              "width": "fill_container",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "fnwq7",
+                  "name": "Avatar",
+                  "clip": true,
+                  "width": 74,
+                  "height": 74,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./patrick-profile.png",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 37
+                },
+                {
+                  "type": "frame",
+                  "id": "E6g9H",
+                  "name": "Identity",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "kDCpw",
+                      "name": "Name",
+                      "fill": "$text-primary",
+                      "content": "Patrick McDonnell",
+                      "lineHeight": 1.5556,
+                      "fontFamily": "$font-body",
+                      "fontSize": "$size-lg",
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "kqog0",
+                      "name": "Role Wrap",
+                      "layout": "vertical",
+                      "padding": [
+                        0,
+                        0,
+                        6,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "VaIlb",
+                          "name": "Role",
+                          "fill": "$text-secondary",
+                          "content": "Designer in Austin",
+                          "lineHeight": 1.3333,
+                          "fontFamily": "$font-body",
+                          "fontSize": "$size-xs",
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "b2wYlA",
+                      "name": "Social",
+                      "gap": 6,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "t3wKw",
+                          "name": "Instagram",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "instagram-logo",
+                          "library": "phosphor",
+                          "fill": "$text-secondary"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "SXFM4",
+                          "name": "LinkedIn",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "linkedin-logo",
+                          "library": "phosphor",
+                          "fill": "$text-secondary"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "s45UvE",
+              "name": "About Section",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "padding": [
+                32,
+                0,
+                48,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "MmpGh",
+                  "name": "About Heading",
+                  "fill": "$text-primary",
+                  "content": "About",
+                  "lineHeight": 1.3333,
+                  "fontFamily": "$font-body",
+                  "fontSize": "$size-xs",
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "L4NS9",
+                  "name": "About Body",
+                  "fill": "$text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "I currently serve as a Designer with the City of Austin Digital Services, focusing on Service Design, UI and AI. I'm a big believer that things can always be simpler than we think.",
+                  "lineHeight": 1.625,
+                  "fontFamily": "$font-body",
+                  "fontSize": "$size-xs",
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "sumc8",
+              "name": "Work Section",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "PSH5p",
+                  "name": "Work Heading",
+                  "fill": "$text-primary",
+                  "content": "Work Experience",
+                  "lineHeight": 1.3333,
+                  "fontFamily": "$font-body",
+                  "fontSize": "$size-xs",
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "oc50P",
+                  "name": "Roles",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "id": "MGx12",
+                      "type": "ref",
+                      "ref": "skGZO",
+                      "name": "Senior Designer at City of Austin",
+                      "width": "fill_container",
+                      "descendants": {
+                        "oWROA": {
+                          "content": "2025 — Now"
+                        },
+                        "yLTA1": {
+                          "content": "Senior Designer at City of Austin"
+                        },
+                        "CWZUW": {
+                          "content": "Digital Services"
+                        }
+                      }
+                    },
+                    {
+                      "id": "aMhit",
+                      "type": "ref",
+                      "ref": "skGZO",
+                      "name": "Senior Product Manager & Designer at City of Austin",
+                      "width": "fill_container",
+                      "descendants": {
+                        "oWROA": {
+                          "content": "2021 — 2025"
+                        },
+                        "yLTA1": {
+                          "content": "Senior Product Manager & Designer at City of Austin"
+                        },
+                        "CWZUW": {
+                          "content": "Transportation"
+                        }
+                      }
+                    },
+                    {
+                      "id": "OW3Gu",
+                      "type": "ref",
+                      "ref": "skGZO",
+                      "name": "Program Coordinator at City of Dallas",
+                      "width": "fill_container",
+                      "descendants": {
+                        "oWROA": {
+                          "content": "2020 — 2021"
+                        },
+                        "yLTA1": {
+                          "content": "Program Coordinator at City of Dallas"
+                        },
+                        "CWZUW": {
+                          "content": "Affordable Housing"
+                        }
+                      }
+                    },
+                    {
+                      "id": "Z4PCA",
+                      "type": "ref",
+                      "ref": "skGZO",
+                      "name": "Lead Designer at Municipality of Anchorage",
+                      "width": "fill_container",
+                      "descendants": {
+                        "oWROA": {
+                          "content": "2017 — 2019"
+                        },
+                        "yLTA1": {
+                          "content": "Lead Designer at Municipality of Anchorage"
+                        },
+                        "CWZUW": {
+                          "content": "WIC & SNAP"
+                        }
+                      }
+                    },
+                    {
+                      "id": "p7EFcX",
+                      "type": "ref",
+                      "ref": "skGZO",
+                      "name": "Product Manager & Designer at City of Austin",
+                      "width": "fill_container",
+                      "descendants": {
+                        "oWROA": {
+                          "content": "2017"
+                        },
+                        "yLTA1": {
+                          "content": "Product Manager & Designer at City of Austin"
+                        },
+                        "CWZUW": {
+                          "content": "Residential Permitting"
+                        }
+                      }
+                    },
+                    {
+                      "id": "nw5L7",
+                      "type": "ref",
+                      "ref": "skGZO",
+                      "name": "Design Researcher at Code for America",
+                      "width": "fill_container",
+                      "descendants": {
+                        "oWROA": {
+                          "content": "2016"
+                        },
+                        "yLTA1": {
+                          "content": "Design Researcher at Code for America"
+                        },
+                        "CWZUW": {
+                          "content": "Small Business Permitting"
+                        }
+                      }
+                    },
+                    {
+                      "id": "k5gVlp",
+                      "type": "ref",
+                      "ref": "skGZO",
+                      "name": "Project Manager at Elsewhere Museum",
+                      "width": "fill_container",
+                      "descendants": {
+                        "oWROA": {
+                          "content": "2015"
+                        },
+                        "yLTA1": {
+                          "content": "Project Manager at Elsewhere Museum"
+                        },
+                        "CWZUW": {
+                          "content": "Public Art"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "E8XOp",
+      "x": 1360,
+      "y": 0,
+      "name": "Resume — Dark",
+      "theme": {
+        "mode": "dark"
+      },
+      "clip": true,
+      "width": 1280,
+      "height": 900,
+      "fill": "$bg",
+      "layout": "vertical",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "VG2ul",
+          "name": "Container",
+          "width": 672,
+          "height": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            42,
+            82,
+            62,
+            82
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "twEoa",
+              "name": "Header",
+              "width": "fill_container",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "qLEjC",
+                  "name": "Avatar",
+                  "clip": true,
+                  "width": 74,
+                  "height": 74,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./patrick-profile.png",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 37
+                },
+                {
+                  "type": "frame",
+                  "id": "N0qvF",
+                  "name": "Identity",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "RLgu8",
+                      "name": "Name",
+                      "fill": "$text-primary",
+                      "content": "Patrick McDonnell",
+                      "lineHeight": 1.5556,
+                      "fontFamily": "$font-body",
+                      "fontSize": "$size-lg",
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "YO1ET",
+                      "name": "Role Wrap",
+                      "layout": "vertical",
+                      "padding": [
+                        0,
+                        0,
+                        6,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "B0a9K",
+                          "name": "Role",
+                          "fill": "$text-secondary",
+                          "content": "Designer in Austin",
+                          "lineHeight": 1.3333,
+                          "fontFamily": "$font-body",
+                          "fontSize": "$size-xs",
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "t4c68z",
+                      "name": "Social",
+                      "gap": 6,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "FYd5A",
+                          "name": "Instagram",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "instagram-logo",
+                          "library": "phosphor",
+                          "fill": "$text-secondary"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "NJ0TI",
+                          "name": "LinkedIn",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "linkedin-logo",
+                          "library": "phosphor",
+                          "fill": "$text-secondary"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "cxRRd",
+              "name": "About Section",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "padding": [
+                32,
+                0,
+                48,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "FtnI4",
+                  "name": "About Heading",
+                  "fill": "$text-primary",
+                  "content": "About",
+                  "lineHeight": 1.3333,
+                  "fontFamily": "$font-body",
+                  "fontSize": "$size-xs",
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "nRV91",
+                  "name": "About Body",
+                  "fill": "$text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "I currently serve as a Designer with the City of Austin Digital Services, focusing on Service Design, UI and AI. I'm a big believer that things can always be simpler than we think.",
+                  "lineHeight": 1.625,
+                  "fontFamily": "$font-body",
+                  "fontSize": "$size-xs",
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "fe85t",
+              "name": "Work Section",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "nRp85",
+                  "name": "Work Heading",
+                  "fill": "$text-primary",
+                  "content": "Work Experience",
+                  "lineHeight": 1.3333,
+                  "fontFamily": "$font-body",
+                  "fontSize": "$size-xs",
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "dRwqr",
+                  "name": "Roles",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "id": "eMjjM",
+                      "type": "ref",
+                      "ref": "skGZO",
+                      "name": "Senior Designer at City of Austin",
+                      "width": "fill_container",
+                      "descendants": {
+                        "oWROA": {
+                          "content": "2025 — Now"
+                        },
+                        "yLTA1": {
+                          "content": "Senior Designer at City of Austin"
+                        },
+                        "CWZUW": {
+                          "content": "Digital Services"
+                        }
+                      }
+                    },
+                    {
+                      "id": "pYkSz",
+                      "type": "ref",
+                      "ref": "skGZO",
+                      "name": "Senior Product Manager & Designer at City of Austin",
+                      "width": "fill_container",
+                      "descendants": {
+                        "oWROA": {
+                          "content": "2021 — 2025"
+                        },
+                        "yLTA1": {
+                          "content": "Senior Product Manager & Designer at City of Austin"
+                        },
+                        "CWZUW": {
+                          "content": "Transportation"
+                        }
+                      }
+                    },
+                    {
+                      "id": "LuxnN",
+                      "type": "ref",
+                      "ref": "skGZO",
+                      "name": "Program Coordinator at City of Dallas",
+                      "width": "fill_container",
+                      "descendants": {
+                        "oWROA": {
+                          "content": "2020 — 2021"
+                        },
+                        "yLTA1": {
+                          "content": "Program Coordinator at City of Dallas"
+                        },
+                        "CWZUW": {
+                          "content": "Affordable Housing"
+                        }
+                      }
+                    },
+                    {
+                      "id": "H8bIx",
+                      "type": "ref",
+                      "ref": "skGZO",
+                      "name": "Lead Designer at Municipality of Anchorage",
+                      "width": "fill_container",
+                      "descendants": {
+                        "oWROA": {
+                          "content": "2017 — 2019"
+                        },
+                        "yLTA1": {
+                          "content": "Lead Designer at Municipality of Anchorage"
+                        },
+                        "CWZUW": {
+                          "content": "WIC & SNAP"
+                        }
+                      }
+                    },
+                    {
+                      "id": "BjPaA",
+                      "type": "ref",
+                      "ref": "skGZO",
+                      "name": "Product Manager & Designer at City of Austin",
+                      "width": "fill_container",
+                      "descendants": {
+                        "oWROA": {
+                          "content": "2017"
+                        },
+                        "yLTA1": {
+                          "content": "Product Manager & Designer at City of Austin"
+                        },
+                        "CWZUW": {
+                          "content": "Residential Permitting"
+                        }
+                      }
+                    },
+                    {
+                      "id": "i1RER",
+                      "type": "ref",
+                      "ref": "skGZO",
+                      "name": "Design Researcher at Code for America",
+                      "width": "fill_container",
+                      "descendants": {
+                        "oWROA": {
+                          "content": "2016"
+                        },
+                        "yLTA1": {
+                          "content": "Design Researcher at Code for America"
+                        },
+                        "CWZUW": {
+                          "content": "Small Business Permitting"
+                        }
+                      }
+                    },
+                    {
+                      "id": "b7klmf",
+                      "type": "ref",
+                      "ref": "skGZO",
+                      "name": "Project Manager at Elsewhere Museum",
+                      "width": "fill_container",
+                      "descendants": {
+                        "oWROA": {
+                          "content": "2015"
+                        },
+                        "yLTA1": {
+                          "content": "Project Manager at Elsewhere Museum"
+                        },
+                        "CWZUW": {
+                          "content": "Public Art"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "FcoUj",
+      "x": 2760,
+      "y": 0,
+      "name": "Resume — Apple",
+      "clip": true,
+      "width": 1280,
+      "fill": "$apple-bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "O2ApPC",
+          "name": "Global Nav",
+          "width": "fill_container",
+          "height": 48,
+          "fill": "#FBFBFDF2",
+          "stroke": "$apple-hairline",
+          "strokeWidth": {
+            "bottom": 1
+          },
+          "padding": [
+            0,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "kCYYz",
+              "name": "Wordmark",
+              "fill": "$apple-text",
+              "content": "Patrick McDonnell",
+              "fontFamily": "$apple-font",
+              "fontSize": 14,
+              "fontWeight": "600",
+              "letterSpacing": -0.2
+            },
+            {
+              "type": "frame",
+              "id": "JoaSM",
+              "name": "Nav Links",
+              "gap": 34,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "hGwgK",
+                  "name": "About",
+                  "fill": "$apple-text",
+                  "content": "About",
+                  "fontFamily": "$apple-font",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "ZmePt",
+                  "name": "Work",
+                  "fill": "$apple-text",
+                  "content": "Work",
+                  "fontFamily": "$apple-font",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "MYXyA",
+                  "name": "Writing",
+                  "fill": "$apple-text",
+                  "content": "Writing",
+                  "fontFamily": "$apple-font",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "JEv8e",
+                  "name": "Contact",
+                  "fill": "$apple-text",
+                  "content": "Contact",
+                  "fontFamily": "$apple-font",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "icon",
+                  "id": "y6YFP",
+                  "name": "Search",
+                  "width": 15,
+                  "height": 15,
+                  "icon": "search",
+                  "library": "lucide",
+                  "fill": "$apple-text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "PH8SZ",
+          "name": "Hero",
+          "width": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            72,
+            80,
+            88,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "h7Ggik",
+              "name": "Avatar",
+              "clip": true,
+              "width": 148,
+              "height": 148,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./patrick-profile.png",
+                "mode": "fill"
+              },
+              "cornerRadius": 74,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00000026",
+                "offset": {
+                  "x": 0,
+                  "y": 12
+                },
+                "blur": 36,
+                "spread": -6
+              }
+            },
+            {
+              "type": "frame",
+              "id": "M5sIeg",
+              "name": "Hero Copy",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 14,
+              "padding": [
+                34,
+                0,
+                0,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "myHKy",
+                  "name": "Headline",
+                  "fill": "$apple-text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Patrick McDonnell",
+                  "lineHeight": 1.08,
+                  "textAlign": "center",
+                  "fontFamily": "$apple-font",
+                  "fontSize": 64,
+                  "fontWeight": "600",
+                  "letterSpacing": -1.8
+                },
+                {
+                  "type": "text",
+                  "id": "NF7RK",
+                  "name": "Subhead",
+                  "fill": "$apple-text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": 760,
+                  "content": "Designer in Austin. Service design, UI, and AI for the city you live in.",
+                  "lineHeight": 1.35,
+                  "textAlign": "center",
+                  "fontFamily": "$apple-font",
+                  "fontSize": 26,
+                  "fontWeight": "normal",
+                  "letterSpacing": -0.4
+                },
+                {
+                  "type": "frame",
+                  "id": "qJboH",
+                  "name": "Hero Links",
+                  "gap": 28,
+                  "padding": [
+                    12,
+                    0,
+                    0,
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "dekfj",
+                      "name": "Instagram Link",
+                      "gap": 3,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "cFAok",
+                          "name": "Label",
+                          "fill": "$apple-blue",
+                          "content": "Instagram",
+                          "fontFamily": "$apple-font",
+                          "fontSize": 19,
+                          "fontWeight": "normal",
+                          "letterSpacing": -0.2
+                        },
+                        {
+                          "type": "icon",
+                          "id": "iWK4J",
+                          "name": "Chevron",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "chevron-right",
+                          "library": "lucide",
+                          "fill": "$apple-blue"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "y43PnX",
+                      "name": "LinkedIn Link",
+                      "gap": 3,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "d67lU",
+                          "name": "Label",
+                          "fill": "$apple-blue",
+                          "content": "LinkedIn",
+                          "fontFamily": "$apple-font",
+                          "fontSize": 19,
+                          "fontWeight": "normal",
+                          "letterSpacing": -0.2
+                        },
+                        {
+                          "type": "icon",
+                          "id": "XDTgJ",
+                          "name": "Chevron",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "chevron-right",
+                          "library": "lucide",
+                          "fill": "$apple-blue"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "so6SE",
+          "name": "About",
+          "width": "fill_container",
+          "fill": "$apple-bg-alt",
+          "layout": "vertical",
+          "gap": 22,
+          "padding": [
+            104,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "S2e7xT",
+              "name": "Eyebrow",
+              "fill": "$apple-blue",
+              "content": "About",
+              "fontFamily": "$apple-font",
+              "fontSize": 19,
+              "fontWeight": "600",
+              "letterSpacing": -0.2
+            },
+            {
+              "type": "text",
+              "id": "javQM",
+              "name": "Statement",
+              "fill": "$apple-text",
+              "textGrowth": "fixed-width",
+              "width": 940,
+              "content": "I design public services for the City of Austin — service design, UI, and AI. A big believer that things can always be simpler than we think.",
+              "lineHeight": 1.24,
+              "textAlign": "center",
+              "fontFamily": "$apple-font",
+              "fontSize": 40,
+              "fontWeight": "600",
+              "letterSpacing": -1
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "h2gjP",
+          "name": "Work",
+          "width": "fill_container",
+          "fill": "$apple-bg",
+          "layout": "vertical",
+          "gap": 52,
+          "padding": [
+            104,
+            80,
+            88,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "VIhH7",
+              "name": "Work Heading",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ZQYf8",
+                  "name": "Eyebrow",
+                  "fill": "$apple-blue",
+                  "content": "Work Experience",
+                  "fontFamily": "$apple-font",
+                  "fontSize": 19,
+                  "fontWeight": "600",
+                  "letterSpacing": -0.2
+                },
+                {
+                  "type": "text",
+                  "id": "h170Uy",
+                  "name": "Title",
+                  "fill": "$apple-text",
+                  "textGrowth": "fixed-width",
+                  "width": 820,
+                  "content": "Ten years of designing for the public.",
+                  "lineHeight": 1.12,
+                  "fontFamily": "$apple-font",
+                  "fontSize": 48,
+                  "fontWeight": "600",
+                  "letterSpacing": -1.4
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "igxws",
+              "name": "Bento Grid",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "UjP9s",
+                  "name": "Current Role",
+                  "width": "fill_container",
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 200,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "#F5F5F7",
+                        "position": 0
+                      },
+                      {
+                        "color": "#E8EDF5",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "cornerRadius": 28,
+                  "stroke": "#00000012",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 44,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "WwRTD",
+                      "name": "Badge Row",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "TMCpO",
+                          "name": "Now Badge",
+                          "fill": "$apple-blue",
+                          "cornerRadius": 20,
+                          "padding": [
+                            5,
+                            12
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "wf0gI",
+                              "name": "Label",
+                              "fill": "#FFFFFF",
+                              "content": "NOW",
+                              "fontFamily": "$apple-font",
+                              "fontSize": 12,
+                              "fontWeight": "600",
+                              "letterSpacing": 0.2
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "hSJrW",
+                          "name": "Years",
+                          "fill": "$apple-text-secondary",
+                          "content": "2025 — Present",
+                          "fontFamily": "$apple-font",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "VrMau",
+                      "name": "Role",
+                      "fill": "$apple-text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Senior Designer at City of Austin",
+                      "lineHeight": 1.16,
+                      "fontFamily": "$apple-font",
+                      "fontSize": 34,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.9
+                    },
+                    {
+                      "type": "text",
+                      "id": "C2y1B",
+                      "name": "Detail",
+                      "fill": "$apple-text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Digital Services",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$apple-font",
+                      "fontSize": 19,
+                      "fontWeight": "normal",
+                      "letterSpacing": -0.2
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "r6sBV",
+                  "name": "Grid Row 1",
+                  "width": "fill_container",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "id": "YJN05",
+                      "type": "ref",
+                      "ref": "hVUtR",
+                      "name": "Senior Product Manager & Designer",
+                      "width": "fill_container",
+                      "descendants": {
+                        "uBtxO": {
+                          "content": "2021 — 2025"
+                        },
+                        "P6C6wv": {
+                          "content": "Senior Product Manager & Designer"
+                        },
+                        "c9xnD": {
+                          "content": "City of Austin · Transportation"
+                        }
+                      }
+                    },
+                    {
+                      "id": "xfxbR",
+                      "type": "ref",
+                      "ref": "hVUtR",
+                      "name": "Program Coordinator",
+                      "width": "fill_container",
+                      "descendants": {
+                        "uBtxO": {
+                          "content": "2020 — 2021"
+                        },
+                        "P6C6wv": {
+                          "content": "Program Coordinator"
+                        },
+                        "c9xnD": {
+                          "content": "City of Dallas · Affordable Housing"
+                        }
+                      }
+                    },
+                    {
+                      "id": "kzE6I",
+                      "type": "ref",
+                      "ref": "hVUtR",
+                      "name": "Lead Designer",
+                      "width": "fill_container",
+                      "descendants": {
+                        "uBtxO": {
+                          "content": "2017 — 2019"
+                        },
+                        "P6C6wv": {
+                          "content": "Lead Designer"
+                        },
+                        "c9xnD": {
+                          "content": "Municipality of Anchorage · WIC & SNAP"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "bHu6R",
+                  "name": "Grid Row 2",
+                  "width": "fill_container",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "id": "l4vZz",
+                      "type": "ref",
+                      "ref": "hVUtR",
+                      "name": "Product Manager & Designer",
+                      "width": "fill_container",
+                      "descendants": {
+                        "uBtxO": {
+                          "content": "2017"
+                        },
+                        "P6C6wv": {
+                          "content": "Product Manager & Designer"
+                        },
+                        "c9xnD": {
+                          "content": "City of Austin · Residential Permitting"
+                        }
+                      }
+                    },
+                    {
+                      "id": "ZOWj9",
+                      "type": "ref",
+                      "ref": "hVUtR",
+                      "name": "Design Researcher",
+                      "width": "fill_container",
+                      "descendants": {
+                        "uBtxO": {
+                          "content": "2016"
+                        },
+                        "P6C6wv": {
+                          "content": "Design Researcher"
+                        },
+                        "c9xnD": {
+                          "content": "Code for America · Small Business Permitting"
+                        }
+                      }
+                    },
+                    {
+                      "id": "aiX1f",
+                      "type": "ref",
+                      "ref": "hVUtR",
+                      "name": "Project Manager",
+                      "width": "fill_container",
+                      "descendants": {
+                        "uBtxO": {
+                          "content": "2015"
+                        },
+                        "P6C6wv": {
+                          "content": "Project Manager"
+                        },
+                        "c9xnD": {
+                          "content": "Elsewhere Museum · Public Art"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "H34UH",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "$apple-bg-alt",
+          "stroke": "$apple-hairline",
+          "strokeWidth": {
+            "top": 1
+          },
+          "padding": [
+            26,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "pHgOq",
+              "name": "Copyright",
+              "fill": "$apple-text-secondary",
+              "content": "Copyright © 2026 Patrick McDonnell. All rights reserved.",
+              "fontFamily": "$apple-font",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "mDb5j",
+              "name": "Footer Links",
+              "gap": 20,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "u3ykH",
+                  "name": "Instagram",
+                  "fill": "$apple-text-secondary",
+                  "content": "Instagram",
+                  "fontFamily": "$apple-font",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "y6svu",
+                  "name": "LinkedIn",
+                  "fill": "$apple-text-secondary",
+                  "content": "LinkedIn",
+                  "fontFamily": "$apple-font",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "oJ5WF",
+                  "name": "Email",
+                  "fill": "$apple-text-secondary",
+                  "content": "Email",
+                  "fontFamily": "$apple-font",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "hVUtR",
+      "x": 0,
+      "y": -700,
+      "name": "Role Card",
+      "reusable": true,
+      "width": 360,
+      "height": 212,
+      "fill": "$apple-bg-alt",
+      "cornerRadius": 22,
+      "layout": "vertical",
+      "gap": 10,
+      "padding": 32,
+      "children": [
+        {
+          "type": "text",
+          "id": "uBtxO",
+          "name": "Years",
+          "fill": "$apple-blue",
+          "content": "2021 — 2025",
+          "fontFamily": "$apple-font",
+          "fontSize": 14,
+          "fontWeight": "600",
+          "letterSpacing": -0.1
+        },
+        {
+          "type": "text",
+          "id": "P6C6wv",
+          "name": "Role",
+          "fill": "$apple-text",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Role title",
+          "lineHeight": 1.22,
+          "fontFamily": "$apple-font",
+          "fontSize": 22,
+          "fontWeight": "600",
+          "letterSpacing": -0.5
+        },
+        {
+          "type": "frame",
+          "id": "JnSmP",
+          "name": "Spacer",
+          "width": "fill_container",
+          "height": "fill_container"
+        },
+        {
+          "type": "text",
+          "id": "c9xnD",
+          "name": "Detail",
+          "fill": "$apple-text-secondary",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Detail",
+          "lineHeight": 1.35,
+          "fontFamily": "$apple-font",
+          "fontSize": 15,
+          "fontWeight": "normal",
+          "letterSpacing": -0.1
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "OOYHS",
+      "x": 0,
+      "y": -440,
+      "name": "Entry Row v2",
+      "reusable": true,
+      "width": 496,
+      "gap": 24,
+      "children": [
+        {
+          "type": "text",
+          "id": "ZWP5D",
+          "name": "Date",
+          "fill": "$text-muted",
+          "textGrowth": "fixed-width",
+          "width": 88,
+          "content": "2025 — Now",
+          "lineHeight": 1.55,
+          "fontFamily": "$font-body",
+          "fontSize": 13,
+          "fontWeight": "normal",
+          "letterSpacing": 0.1
+        },
+        {
+          "type": "frame",
+          "id": "M9TvZe",
+          "name": "Details",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 3,
+          "children": [
+            {
+              "type": "text",
+              "id": "ouwcJ",
+              "name": "Title",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Senior Designer at City of Austin",
+              "lineHeight": 1.45,
+              "fontFamily": "$font-body",
+              "fontSize": 14,
+              "fontWeight": "500",
+              "letterSpacing": -0.1
+            },
+            {
+              "type": "text",
+              "id": "j6WFN",
+              "name": "Subtitle",
+              "fill": "$text-muted",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Digital Services",
+              "lineHeight": 1.45,
+              "fontFamily": "$font-body",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "dxwQ8",
+      "x": 0,
+      "y": 1020,
+      "name": "Resume — Refined Light",
+      "theme": {
+        "mode": "light"
+      },
+      "clip": true,
+      "width": 1280,
+      "height": 960,
+      "fill": "$bg",
+      "layout": "vertical",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "KB1a8",
+          "name": "Column",
+          "width": 660,
+          "height": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            96,
+            82
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "hliX2",
+              "name": "Header",
+              "width": "fill_container",
+              "gap": 18,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "VqZlS",
+                  "name": "Avatar",
+                  "clip": true,
+                  "width": 64,
+                  "height": 64,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./patrick-profile.png",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 32
+                },
+                {
+                  "type": "frame",
+                  "id": "AnT9t",
+                  "name": "Identity",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "K4gAxO",
+                      "name": "Name",
+                      "fill": "$text-primary",
+                      "content": "Patrick McDonnell",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-body",
+                      "fontSize": 20,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.3
+                    },
+                    {
+                      "type": "text",
+                      "id": "mtAqQ",
+                      "name": "Role",
+                      "fill": "$text-muted",
+                      "content": "Designer in Austin",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "UwZrF",
+                      "name": "Social",
+                      "gap": 12,
+                      "padding": [
+                        8,
+                        0,
+                        0,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "ttpyK",
+                          "name": "Instagram",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "instagram-logo",
+                          "library": "phosphor",
+                          "fill": "$text-muted"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "TscIX",
+                          "name": "LinkedIn",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "linkedin-logo",
+                          "library": "phosphor",
+                          "fill": "$text-muted"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "j9CaK",
+              "name": "About",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "padding": [
+                56,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "YUeAp",
+                  "name": "Label",
+                  "fill": "$text-muted",
+                  "content": "ABOUT",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-body",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 0.9
+                },
+                {
+                  "type": "text",
+                  "id": "TWQu8",
+                  "name": "Body",
+                  "fill": "$text-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "I currently serve as a Designer with the City of Austin Digital Services, focusing on Service Design, UI and AI. I'm a big believer that things can always be simpler than we think.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "nH4Oa",
+              "name": "Work",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "padding": [
+                56,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "q9mCW5",
+                  "name": "Label",
+                  "fill": "$text-muted",
+                  "content": "WORK EXPERIENCE",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-body",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 0.9
+                },
+                {
+                  "type": "frame",
+                  "id": "tp54F",
+                  "name": "Roles",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "id": "gxDe7",
+                      "type": "ref",
+                      "ref": "OOYHS",
+                      "name": "Senior Designer at City of Austin",
+                      "width": "fill_container",
+                      "descendants": {
+                        "ZWP5D": {
+                          "content": "2025 — Now"
+                        },
+                        "ouwcJ": {
+                          "content": "Senior Designer at City of Austin"
+                        },
+                        "j6WFN": {
+                          "content": "Digital Services"
+                        }
+                      }
+                    },
+                    {
+                      "id": "Mx80S",
+                      "type": "ref",
+                      "ref": "OOYHS",
+                      "name": "Senior Product Manager & Designer at City of Austin",
+                      "width": "fill_container",
+                      "descendants": {
+                        "ZWP5D": {
+                          "content": "2021 — 2025"
+                        },
+                        "ouwcJ": {
+                          "content": "Senior Product Manager & Designer at City of Austin"
+                        },
+                        "j6WFN": {
+                          "content": "Transportation"
+                        }
+                      }
+                    },
+                    {
+                      "id": "U2D5i",
+                      "type": "ref",
+                      "ref": "OOYHS",
+                      "name": "Program Coordinator at City of Dallas",
+                      "width": "fill_container",
+                      "descendants": {
+                        "ZWP5D": {
+                          "content": "2020 — 2021"
+                        },
+                        "ouwcJ": {
+                          "content": "Program Coordinator at City of Dallas"
+                        },
+                        "j6WFN": {
+                          "content": "Affordable Housing"
+                        }
+                      }
+                    },
+                    {
+                      "id": "DYzrG",
+                      "type": "ref",
+                      "ref": "OOYHS",
+                      "name": "Lead Designer at Municipality of Anchorage",
+                      "width": "fill_container",
+                      "descendants": {
+                        "ZWP5D": {
+                          "content": "2017 — 2019"
+                        },
+                        "ouwcJ": {
+                          "content": "Lead Designer at Municipality of Anchorage"
+                        },
+                        "j6WFN": {
+                          "content": "WIC & SNAP"
+                        }
+                      }
+                    },
+                    {
+                      "id": "P1iIX",
+                      "type": "ref",
+                      "ref": "OOYHS",
+                      "name": "Product Manager & Designer at City of Austin",
+                      "width": "fill_container",
+                      "descendants": {
+                        "ZWP5D": {
+                          "content": "2017"
+                        },
+                        "ouwcJ": {
+                          "content": "Product Manager & Designer at City of Austin"
+                        },
+                        "j6WFN": {
+                          "content": "Residential Permitting"
+                        }
+                      }
+                    },
+                    {
+                      "id": "I19dOk",
+                      "type": "ref",
+                      "ref": "OOYHS",
+                      "name": "Design Researcher at Code for America",
+                      "width": "fill_container",
+                      "descendants": {
+                        "ZWP5D": {
+                          "content": "2016"
+                        },
+                        "ouwcJ": {
+                          "content": "Design Researcher at Code for America"
+                        },
+                        "j6WFN": {
+                          "content": "Small Business Permitting"
+                        }
+                      }
+                    },
+                    {
+                      "id": "lunsi",
+                      "type": "ref",
+                      "ref": "OOYHS",
+                      "name": "Project Manager at Elsewhere Museum",
+                      "width": "fill_container",
+                      "descendants": {
+                        "ZWP5D": {
+                          "content": "2015"
+                        },
+                        "ouwcJ": {
+                          "content": "Project Manager at Elsewhere Museum"
+                        },
+                        "j6WFN": {
+                          "content": "Public Art"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "CnYGV",
+      "x": 1360,
+      "y": 1020,
+      "name": "Resume — Refined Dark",
+      "theme": {
+        "mode": "dark"
+      },
+      "clip": true,
+      "width": 1280,
+      "height": 960,
+      "fill": "$bg",
+      "layout": "vertical",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "jv7k4",
+          "name": "Column",
+          "width": 660,
+          "height": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            96,
+            82
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "bPUR0",
+              "name": "Header",
+              "width": "fill_container",
+              "gap": 18,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "i43kJ1",
+                  "name": "Avatar",
+                  "clip": true,
+                  "width": 64,
+                  "height": 64,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./patrick-profile.png",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 32
+                },
+                {
+                  "type": "frame",
+                  "id": "vGIEI",
+                  "name": "Identity",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "G9hjVY",
+                      "name": "Name",
+                      "fill": "$text-primary",
+                      "content": "Patrick McDonnell",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-body",
+                      "fontSize": 20,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.3
+                    },
+                    {
+                      "type": "text",
+                      "id": "UEEGN",
+                      "name": "Role",
+                      "fill": "$text-muted",
+                      "content": "Designer in Austin",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "dbFsS",
+                      "name": "Social",
+                      "gap": 12,
+                      "padding": [
+                        8,
+                        0,
+                        0,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "ImVNT",
+                          "name": "Instagram",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "instagram-logo",
+                          "library": "phosphor",
+                          "fill": "$text-muted"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "SGPUa",
+                          "name": "LinkedIn",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "linkedin-logo",
+                          "library": "phosphor",
+                          "fill": "$text-muted"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "p7l8co",
+              "name": "About",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "padding": [
+                56,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "bGxZZ",
+                  "name": "Label",
+                  "fill": "$text-muted",
+                  "content": "ABOUT",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-body",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 0.9
+                },
+                {
+                  "type": "text",
+                  "id": "A6lVf4",
+                  "name": "Body",
+                  "fill": "$text-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "I currently serve as a Designer with the City of Austin Digital Services, focusing on Service Design, UI and AI. I'm a big believer that things can always be simpler than we think.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "tX5tt",
+              "name": "Work",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "padding": [
+                56,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "JieyO",
+                  "name": "Label",
+                  "fill": "$text-muted",
+                  "content": "WORK EXPERIENCE",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-body",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 0.9
+                },
+                {
+                  "type": "frame",
+                  "id": "TXRdg",
+                  "name": "Roles",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "id": "kTHfn",
+                      "type": "ref",
+                      "ref": "OOYHS",
+                      "name": "Senior Designer at City of Austin",
+                      "width": "fill_container",
+                      "descendants": {
+                        "ZWP5D": {
+                          "content": "2025 — Now"
+                        },
+                        "ouwcJ": {
+                          "content": "Senior Designer at City of Austin"
+                        },
+                        "j6WFN": {
+                          "content": "Digital Services"
+                        }
+                      }
+                    },
+                    {
+                      "id": "Z5rNZ",
+                      "type": "ref",
+                      "ref": "OOYHS",
+                      "name": "Senior Product Manager & Designer at City of Austin",
+                      "width": "fill_container",
+                      "descendants": {
+                        "ZWP5D": {
+                          "content": "2021 — 2025"
+                        },
+                        "ouwcJ": {
+                          "content": "Senior Product Manager & Designer at City of Austin"
+                        },
+                        "j6WFN": {
+                          "content": "Transportation"
+                        }
+                      }
+                    },
+                    {
+                      "id": "I2Kwv",
+                      "type": "ref",
+                      "ref": "OOYHS",
+                      "name": "Program Coordinator at City of Dallas",
+                      "width": "fill_container",
+                      "descendants": {
+                        "ZWP5D": {
+                          "content": "2020 — 2021"
+                        },
+                        "ouwcJ": {
+                          "content": "Program Coordinator at City of Dallas"
+                        },
+                        "j6WFN": {
+                          "content": "Affordable Housing"
+                        }
+                      }
+                    },
+                    {
+                      "id": "jBNeg",
+                      "type": "ref",
+                      "ref": "OOYHS",
+                      "name": "Lead Designer at Municipality of Anchorage",
+                      "width": "fill_container",
+                      "descendants": {
+                        "ZWP5D": {
+                          "content": "2017 — 2019"
+                        },
+                        "ouwcJ": {
+                          "content": "Lead Designer at Municipality of Anchorage"
+                        },
+                        "j6WFN": {
+                          "content": "WIC & SNAP"
+                        }
+                      }
+                    },
+                    {
+                      "id": "qWJgO",
+                      "type": "ref",
+                      "ref": "OOYHS",
+                      "name": "Product Manager & Designer at City of Austin",
+                      "width": "fill_container",
+                      "descendants": {
+                        "ZWP5D": {
+                          "content": "2017"
+                        },
+                        "ouwcJ": {
+                          "content": "Product Manager & Designer at City of Austin"
+                        },
+                        "j6WFN": {
+                          "content": "Residential Permitting"
+                        }
+                      }
+                    },
+                    {
+                      "id": "j4aDA",
+                      "type": "ref",
+                      "ref": "OOYHS",
+                      "name": "Design Researcher at Code for America",
+                      "width": "fill_container",
+                      "descendants": {
+                        "ZWP5D": {
+                          "content": "2016"
+                        },
+                        "ouwcJ": {
+                          "content": "Design Researcher at Code for America"
+                        },
+                        "j6WFN": {
+                          "content": "Small Business Permitting"
+                        }
+                      }
+                    },
+                    {
+                      "id": "NVpuU",
+                      "type": "ref",
+                      "ref": "OOYHS",
+                      "name": "Project Manager at Elsewhere Museum",
+                      "width": "fill_container",
+                      "descendants": {
+                        "ZWP5D": {
+                          "content": "2015"
+                        },
+                        "ouwcJ": {
+                          "content": "Project Manager at Elsewhere Museum"
+                        },
+                        "j6WFN": {
+                          "content": "Public Art"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "themes": {
+    "mode": [
+      "light",
+      "dark"
+    ]
+  },
+  "variables": {
+    "bg": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FFFFFF",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#111827",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "text-primary": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#000000",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#FFFFFF",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "text-secondary": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#4B5563",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#9CA3AF",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "font-body": {
+      "type": "string",
+      "value": "Inter"
+    },
+    "size-xs": {
+      "type": "number",
+      "value": 12
+    },
+    "size-lg": {
+      "type": "number",
+      "value": 18
+    },
+    "space-section": {
+      "type": "number",
+      "value": 48
+    },
+    "apple-bg": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "apple-bg-alt": {
+      "type": "color",
+      "value": "#F5F5F7"
+    },
+    "apple-text": {
+      "type": "color",
+      "value": "#1D1D1F"
+    },
+    "apple-text-secondary": {
+      "type": "color",
+      "value": "#6E6E73"
+    },
+    "apple-blue": {
+      "type": "color",
+      "value": "#0066CC"
+    },
+    "apple-hairline": {
+      "type": "color",
+      "value": "#D2D2D7"
+    },
+    "apple-font": {
+      "type": "string",
+      "value": "Inter"
+    },
+    "text-muted": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#6B7280",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#9CA3AF",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "hairline": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#EAEAEC",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#262F3F",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    }
+  },
+  "fileToken": "101a3fad-e44c-442f-a966-098400777f5e"
+}

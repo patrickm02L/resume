@@ -2,8 +2,28 @@
 
 @variant dark (.dark &);
 
+/* Design tokens — mirrors the variables in designs/resume.pen
+   (Resume — Refined Light / Resume — Refined Dark) */
+:root {
+  --bg: #ffffff;
+  --text-primary: #000000;
+  --text-muted: #6b7280;
+  --hairline: #eaeaec;
+}
+
+.dark {
+  --bg: #111827;
+  --text-primary: #ffffff;
+  --text-muted: #9ca3af;
+  --hairline: #262f3f;
+}
+
 @theme inline {
   --font-sans: var(--font-inter);
+  --color-canvas: var(--bg);
+  --color-ink: var(--text-primary);
+  --color-muted: var(--text-muted);
+  --color-hairline: var(--hairline);
 }
 
 /* Ensure consistent font rendering across environments */

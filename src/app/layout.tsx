@@ -33,9 +33,7 @@ export default function RootLayout({
         <link rel="preload" href="/patrick-profile.png" as="image" />
         <GoogleAnalytics gaId="G-0BT6WFEBBY" />
       </head>
-      <body
-        className={`${inter.variable} antialiased font-inter`}
-      >
+      <body className={`${inter.variable} antialiased`}>
         <ThemeProvider>
           {children}
         </ThemeProvider>
